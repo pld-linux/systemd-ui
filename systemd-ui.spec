@@ -15,6 +15,8 @@ BuildRequires:	libgee-devel
 BuildRequires:	libnotify-devel >= 0.7.0
 BuildRequires:	pkgconfig
 BuildRequires:	vala >= 0.11
+# not required for building from release (which contains *.c for *.vala)
+#BuildRequires:	vala >= 0.10.0
 Requires:	dbus(org.freedesktop.Notifications)
 Requires:	polkit
 Obsoletes:	systemd-gtk < 44-5
