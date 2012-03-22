@@ -15,7 +15,7 @@ BuildRequires:	libgee-devel
 BuildRequires:	libnotify-devel >= 0.7.0
 BuildRequires:	pkgconfig
 BuildRequires:	vala >= 0.11
-Requires:	desktop-notification-daemon
+Requires:	dbus(org.freedesktop.Notifications)
 Requires:	polkit
 Obsoletes:	systemd-gtk < 44-5
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
