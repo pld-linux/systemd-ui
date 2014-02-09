@@ -1,12 +1,12 @@
 Summary:	Graphical frontend for systemd
 Summary(pl.UTF-8):	Graficzny interfejs do systemd
 Name:		systemd-ui
-Version:	2
+Version:	3
 Release:	1
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://www.freedesktop.org/software/systemd/%{name}-%{version}.tar.xz
-# Source0-md5:	44db062d67fbe48da6916d6fe45b44c5
+# Source0-md5:	8e075c41f89a2888deee4ec3a8e75806
 URL:		http://www.freedesktop.org/wiki/Software/systemd
 BuildRequires:	dbus-devel >= 1.3.2
 BuildRequires:	desktop-file-utils
@@ -14,6 +14,7 @@ BuildRequires:	glib2-devel >= 1:2.26.1
 BuildRequires:	gtk+3-devel >= 3.0
 BuildRequires:	libgee-devel >= 0.8
 BuildRequires:	libnotify-devel >= 0.7.0
+BuildRequires:	libxslt-progs
 BuildRequires:	pkgconfig
 # not required for building from release (which contains *.c for *.vala)
 #BuildRequires:	vala >= 0.11
